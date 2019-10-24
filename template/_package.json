@@ -112,7 +112,6 @@
     "": ""
   },
   "devDependencies": {
-    "dependencies": {
       "@nuxtjs/axios": "5.7.1",
       "@nuxt/typescript-runtime": "0.2.2",
       "nuxt": "2.10.2",
@@ -160,6 +159,6 @@
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^2.0.0",
     <%_ } _%>
-
+"":""
   }
 }
