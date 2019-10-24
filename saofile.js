@@ -98,14 +98,14 @@ module.exports = {
       }
     })
 
-    actions.push({
-      type: 'move',
-      patterns: {
-        gitignore: '.gitignore',
-        '_package.json': 'package.json',
-        '_.eslintrc.js': '.eslintrc.js'
-      }
-    })
+    // actions.push({
+    //   type: 'move',
+    //   patterns: {
+    //     gitignore: '.gitignore',
+    //     '_package.json': 'package.json',
+    //     '_.eslintrc.js': '.eslintrc.js'
+    //   }
+    // })
 
     actions.push({
       type: 'modify',
