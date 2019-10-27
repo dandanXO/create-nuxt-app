@@ -8,7 +8,8 @@ const rootDir = __dirname
 module.exports = {
   prompts: require('./prompts'),
   templateData () {
-    console.log(this,'//show all this options')
+    console.log(this.cliOptions,'//show cli options')
+    console.log(this.answers,'//show answers')
     const pwa = this.answers.features.includes('pwa')
     const eslint = this.answers.linter.includes('eslint')
     const prettier = this.answers.linter.includes('prettier')
