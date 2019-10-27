@@ -4,7 +4,7 @@ const spawn = require('cross-spawn')
 const validate = require('validate-npm-package-name')
 
 const rootDir = __dirname
-
+console.log(this,'//show all this options')
 module.exports = {
   prompts: require('./prompts'),
   templateData () {
@@ -39,7 +39,7 @@ module.exports = {
       console.error('Error:', err)
     })
     validation.errors && validation.errors.length && process.exit(1)
-    console.log(this.answers)
+  
     const actions = [{
       type: 'add',
       files: '**',
