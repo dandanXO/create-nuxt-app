@@ -74,7 +74,7 @@ module.exports = [
       { name: 'Axios', value: 'axios' },
       { name: 'Progressive Web App (PWA) Support', value: 'pwa' }
     ],
-    default: []
+    default: ['axios']
   },
   {
     name: 'linter',
