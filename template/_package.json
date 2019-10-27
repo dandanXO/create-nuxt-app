@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     <%_ if (server === 'none') { _%>
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
     "generate": "nuxt generate",
     <%_ } else if (server === 'adonis') { _%>
     "serve:dev": "<%= pmRun %> dev",
@@ -114,9 +114,11 @@
   "devDependencies": {
       "@nuxtjs/axios": "5.7.1",
       "@nuxt/typescript-runtime": "0.2.2",
+      "@nuxt/typescript-build":"0.3.2",
       "nuxt": "2.10.2",
       "nuxt-property-decorator": "2.5.0",
       "vuex-class": "0.3.2",
+    
     
     <%_ if (server !== 'none') { _%>
     "nodemon": "^1.18.9",
