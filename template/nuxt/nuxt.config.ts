@@ -1,7 +1,7 @@
 export default {
   env: {},
   head: {
-    title: "{{ name }}",
+    title: process.env.npm_package_name || '',
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -15,6 +15,10 @@ export default {
   css: ["~/assets/css/main.css"],
   build: {},
   buildModules: ["@nuxt/typescript-build"],
+  <%_ if (ui === 'tailwind') { _%>
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    '@nuxtjs/tailwindcss',
+    <%_ } _%>
   modules: [
     "@nuxtjs/axios",
   ],
