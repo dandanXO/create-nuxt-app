@@ -4,10 +4,11 @@ const spawn = require('cross-spawn')
 const validate = require('validate-npm-package-name')
 
 const rootDir = __dirname
-console.log(this,'//show all this options')
+
 module.exports = {
   prompts: require('./prompts'),
   templateData () {
+    console.log(this,'//show all this options')
     const pwa = this.answers.features.includes('pwa')
     const eslint = this.answers.linter.includes('eslint')
     const prettier = this.answers.linter.includes('prettier')

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="header">Nuxt TypeScript Starter by <%_ name _%></h1>
+    <h1 class="header">Nuxt TypeScript Starter by  <%= name %></h1>
     <div class="cards">
       <Card
         v-for="person in people"
