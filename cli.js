@@ -29,6 +29,7 @@ cli
   .option('-i, --info', 'Print out debugging information relating to the local environment')
   .option('--answers <json>', 'Skip all the prompts and use the provided answers')
   .option('--verbose', 'Show debug logs')
+  .option('--who', 'dan build')
   .action((outDir = '.', cliOptions) => {
     if (cliOptions.info) {
       return showEnvInfo()
