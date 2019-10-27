@@ -18,8 +18,6 @@ module.exports = {
 
     const { cliOptions = {} } = this.sao.opts
     const edge = cliOptions.edge ? '-edge' : ''
-
-    console.log(shwoDan)
     return {
       pwa,
       eslint,

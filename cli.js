@@ -35,7 +35,7 @@ cli
       return showEnvInfo()
     }
     console.log()
-    console.log(chalk`{cyan create-nuxt-app v${version}}`)
+    console.log(chalk`{cyan dan-create-nuxt v${version}}`)
     console.log(chalk`✨  Generating Nuxt.js project in {cyan ${outDir}}`)
 
     const { verbose, answers } = cliOptions
