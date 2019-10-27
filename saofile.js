@@ -8,9 +8,6 @@ const rootDir = __dirname
 module.exports = {
   prompts: require('./prompts'),
   templateData () {
-    console.log(this.sao,'//show cli options')
-    console.log(this.answers,'//show answers')
-    
     const pwa = this.answers.features.includes('pwa')
     const eslint = this.answers.linter.includes('eslint')
     const prettier = this.answers.linter.includes('prettier')
@@ -21,7 +18,7 @@ module.exports = {
 
     const { cliOptions = {} } = this.sao.opts
     const edge = cliOptions.edge ? '-edge' : ''
-    const shwoDan = cliOptions.who ? 'haha test for show cmd build by dan':""
+
     console.log(shwoDan)
     return {
       pwa,
@@ -145,7 +142,10 @@ module.exports = {
     const relativeOutFolder = relative(process.cwd(), this.outDir)
     const cdMsg = isNewFolder ? chalk`\t{cyan cd ${relativeOutFolder}}\n` : ''
     const pmRun = this.answers.pm === 'yarn' ? 'yarn' : 'npm run'
-
+    console.log('//show cli options',this.sao.opts)
+    console.log('//show answers',this.answers)
+    console.log(chalk `\n ${ cliOptions.who ? 'haha test for show cmd build by dan':""}`)
+    
     console.log(chalk`\n🎉  {bold Successfully created project} {cyan ${this.answers.name}}\n`)
 
     console.log(chalk`  {bold To get started:}\n`)

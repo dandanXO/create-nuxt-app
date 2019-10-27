@@ -22,7 +22,17 @@ export default {
   ],
   
   modules: [
-    "@nuxtjs/axios",
+     <%_ if (axios) { _%>
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios',
+    <%_ } _%>
   ],
-  axios: {}
+ <%_ if (axios) { _%>
+  /*
+  ** Axios module configuration
+  ** See https://axios.nuxtjs.org/options
+  */
+  axios: {
+  },
+  <%_ } _%>
 }
