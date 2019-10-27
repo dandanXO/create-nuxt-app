@@ -10,14 +10,9 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt generate",
-    <%_ } else if (server === 'adonis') { _%>
-    "serve:dev": "<%= pmRun %> dev",
-    "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js",
-    "build": "cross-env NODE_ENV=production node ./ace nuxtbuild",
-    "start": "cross-env NODE_ENV=production node server.js",
-    <%_ } else { _%>
+    <%_ }   else { _%>
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "build": "nuxt build",
+    "build": "nuxt-ts build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate",
     <%_ } _%>
