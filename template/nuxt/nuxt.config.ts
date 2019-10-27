@@ -14,11 +14,13 @@ export default {
   loading: { color: "#3B8070" },
   css: ["~/assets/css/main.css"],
   build: {},
-  buildModules: ["@nuxt/typescript-build"],
+  buildModules: ["@nuxt/typescript-build"
   <%_ if (ui === 'tailwind') { _%>
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     <%_ } _%>
+  ],
+  
   modules: [
     "@nuxtjs/axios",
   ],

@@ -35,16 +35,16 @@ module.exports = [
     pageSize: 15,
     choices: [
       { name: 'None', value: 'none' },
-      { name: 'Ant Design Vue', value: 'ant-design-vue' },
-      { name: 'Bootstrap Vue', value: 'bootstrap' },
-      { name: 'Buefy', value: 'buefy' },
-      { name: 'Bulma', value: 'bulma' },
-      { name: 'Element', value: 'element-ui' },
-      { name: 'Framevuerk', value: 'framevuerk' },
-      { name: 'iView', value: 'iview' },
-      { name: 'Tachyons', value: 'tachyons' },
       { name: 'Tailwind CSS', value: 'tailwind' },
-      { name: 'Vuetify.js', value: 'vuetify' }
+      // { name: 'Ant Design Vue', value: 'ant-design-vue' },
+      // { name: 'Bootstrap Vue', value: 'bootstrap' },
+      // { name: 'Buefy', value: 'buefy' },
+      // { name: 'Bulma', value: 'bulma' },
+      // { name: 'Element', value: 'element-ui' },
+      // { name: 'Framevuerk', value: 'framevuerk' },
+      // { name: 'iView', value: 'iview' },
+      // { name: 'Tachyons', value: 'tachyons' },
+      // { name: 'Vuetify.js', value: 'vuetify' }
     ],
     default: 'none'
   },
@@ -55,13 +55,13 @@ module.exports = [
     pageSize: 10,
     choices: [
       { name: 'None (Recommended)', value: 'none' },
-      { name: 'AdonisJs', value: 'adonis' },
-      { name: 'Express', value: 'express' },
-      { name: 'Fastify', value: 'fastify' },
-      { name: 'Feathers', value: 'feathers' },
-      { name: 'hapi', value: 'hapi' },
-      { name: 'Koa', value: 'koa' },
-      { name: 'Micro', value: 'micro' }
+      // { name: 'AdonisJs', value: 'adonis' },
+      // { name: 'Express', value: 'express' },
+      // { name: 'Fastify', value: 'fastify' },
+      // { name: 'Feathers', value: 'feathers' },
+      // { name: 'hapi', value: 'hapi' },
+      // { name: 'Koa', value: 'koa' },
+      // { name: 'Micro', value: 'micro' }
     ],
     default: 'none'
   },

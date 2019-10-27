@@ -39,7 +39,7 @@ module.exports = {
       console.error('Error:', err)
     })
     validation.errors && validation.errors.length && process.exit(1)
-
+    console.log(this.answers)
     const actions = [{
       type: 'add',
       files: '**',
