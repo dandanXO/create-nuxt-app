@@ -1,6 +1,7 @@
-# Create Nuxt App
+# Dan create nuxt
+fot build template test ~
 
-[![NPM version](https://img.shields.io/npm/v/create-nuxt-app.svg?style=flat)](https://npmjs.com/package/create-nuxt-app)
+<!-- [![NPM version](https://img.shields.io/npm/v/create-nuxt-app.svg?style=flat)](https://npmjs.com/package/create-nuxt-app)
 [![NPM downloads](https://img.shields.io/npm/dm/create-nuxt-app.svg?style=flat)](https://npmjs.com/package/create-nuxt-app)
 [![CircleCI](https://img.shields.io/circleci/project/github/nuxt/create-nuxt-app/master.svg?style=flat)](https://circleci.com/gh/nuxt/create-nuxt-app/master)
 
@@ -122,4 +123,4 @@ Alias: `-v`. Show version number and exit.
 
 - [egoist](https://github.com/egoist)
 - [clarko](https://github.com/clarkdo)
-- All our contributors ([list](https://github.com/nuxt/create-nuxt-app/contributors)).
+- All our contributors ([list](https://github.com/nuxt/create-nuxt-app/contributors)). -->
