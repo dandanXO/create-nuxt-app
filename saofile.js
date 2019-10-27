@@ -142,7 +142,7 @@ module.exports = {
     const pmRun = this.answers.pm === 'yarn' ? 'yarn' : 'npm run'
     console.log('//show cli options',this.sao.opts)
     console.log('//show answers',this.answers)
-    console.log(chalk `\n ${ cliOptions.who ? 'haha test for show cmd build by dan':""}`)
+    console.log(chalk `\n ${ this.sao.opts.cliOptions.who ? 'haha test for show cmd build by dan':""}`)
     
     console.log(chalk`\n🎉  {bold Successfully created project} {cyan ${this.answers.name}}\n`)
 

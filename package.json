@@ -1,5 +1,5 @@
 {
-  "name": "create-nuxt-app",
+  "name": "dan-create-nuxt",
   "version": "2.11.1",
   "description": "Create a Nuxt.js App in seconds.",
   "bin": "cli.js",
