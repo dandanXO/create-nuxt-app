@@ -2,6 +2,7 @@
   <section>
     <h1 class="header">Nuxt TypeScript Starter by  <%= name %></h1>
     <div class="cards">
+      <test/>
       <Card
         v-for="person in people"
         :key="person.id"
@@ -19,10 +20,11 @@ import {
 import { State } from "vuex-class"
 import { Person } from "~/types";
 import Card from "~/components/Card.vue"
-
+import Test from "~/components/test.vue"
 @Component({
   components: {
-    Card
+    Card,
+    Test
   }
 })
 export default class extends Vue {
